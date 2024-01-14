@@ -1,0 +1,49 @@
+
+
+I wanted to proove the linearity of the size of the blur circle along the line between the near/far focus.
+
+At the same time, this gives a much simpler demonstration !
+
+
+
+View: original size
+
+Here we just want to calculate the size of the blur circle s.
+
+If y > x
+
+Depending on the distance of the distant plane yand aperture a;
+
+s = a(y-x)/y = a (1-x/y)
+But instead of having a relation depending on y, we want it as a function of d which is the distance between the point O and the image of A on the focus plane.
+
+BC = (x/y)h
+
+d = h - (x/y)h
+
+This means we have;
+
+x/y = (h-d)/h
+so s = a(1 - (h-d)/h)
+
+Equation 1: s = (a/h) * d
+
+The size of the blurry disk varies proportionnally with distance d
+
+If y < x
+
+Let me save some efforts but with the same logic we will find that
+
+Equation 2: s = -(a/h) * d
+
+d is the abscissa and will be negative
+
+So the blurry disk size is proportional to distance d, anf of course equals 0 when d=0 (means no blur  on the focus plane)
+
+
+
+View: original size
+
+Of course now no need for the previous demonstration, this also demonstrates that we simply need to focus at the midpoint (in the image).
+
+Looks good ? This is simple in fact.
